@@ -58,6 +58,7 @@ header h1 {
 	text-align: center;
 	padding: 10px 10px;
 	border-bottom: solid 3px #77a466;
+	width: 100%;
 }
 
 header h1 span {
@@ -66,6 +67,7 @@ header h1 span {
 
 header nav {
 	padding: 36px 0;
+	width: 100%;
 }
 header nav ul {
 	list-style-type: none;
@@ -164,7 +166,8 @@ footer {
 	border-top: 3px solid #eee;
 	margin: 0 auto;
 	text-align: center;
-	display: flexbox;
+	display: flex;
+	align-items: center;
 }
 footer span {
 	font-family: 'Galada', cursive;
@@ -174,144 +177,24 @@ footer span {
 }
 
 /*---------- TABLET ----------*/
-@media (min-width: 768px) {
-h1 {
-	font-size: 1.875em;
+@media all and (min-width: 768px) {
+
+.bottom-section {
+
 }
-h2 {
-	font-size: 1.125em;
-}
-h3 {
-	font-size: .75em;
-}
+.section-one {
 	
-p {
-	font-size: .875em;
-	line-height: 1.3125em;
-	display: flex;
 }
-	
-header {
-	border-bottom: 3px solid #77a466;
-	width: 100%;
-	margin: auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: row wrap;
-}
-	
-header h1 {
-	margin: 0;
-	text-align: center;
-	padding: 10px 10px;
-	border-bottom: solid 3px #77a466;
-}
-	
-header nav {
-	padding: 36px 0;
-}
-header nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-header nav ul li {
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: .875em;
-	line-height: 40px;
-	padding:  0px;
-	text-align: center;
-}
-header nav ul li a{
-	text-decoration: none;
-	color:#77a466;
-}
-	
-.main-image {
-	height: auto;
-}
-.main-image img {
-	width: 100%;
-	border-bottom: 3px solid #77a466;
-}
-	
-.main-title {
-	height: auto;
-}
-.main-title h2 {
-	text-align: left;
-	padding: 10px 10px;
-	color: #77a466;
-}
-.main-title p {
-	padding: 10px 10px;
-	font-size: 1em;
-	line-height: 25px;
-}
-	
-.section-one,
-.section-two,
-.section-three {
-	line-height: 1.5em;
-	font-size: 1em;
-	display: flex;
-	width: 30%;
-	justify-content: center;
-	align-items: flex-start;
-	padding-top: 25px;
-}
-	
-.section-one h3 {
-	padding: 10px 10px;
-}
-	
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
 	
-.section-two h3,
-.section-three h3 {
-	padding: 10px 10px;
 }
-	
-.menu {
-	list-style: none;
-	padding: 10px 10px;
-}
-.menu li {
-	padding: 1Opx 10px;
-	color:#77a466;
-	line-height: 30px;
-}
-	
-.reviews {
-	color: #333;
-	font-size: 1em;
-	line-height: 21px;
-	padding: 10px 10px;
-}
-	
-.address {
-	font-size: 1em;
-	line-height: 24px;
-	padding: 10px 10px;
-}
-	
-footer {
-	border-top: 3px solid #eee;
-	margin: 0 auto;
-	text-align: center;
-	display: flexbox;
-}
-footer span {
-	font-size: 1em;
+.section-three {
+		
 }
 
 
 /*--------- DESKTOP ---------*/
-@media (min-width: 1200px) {
+@media all and (min-width: 1200px) {
 }
 
+}
