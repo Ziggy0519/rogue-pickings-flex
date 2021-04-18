@@ -125,10 +125,13 @@ header nav ul li a{
 
 .menu {
 	list-style: none;
+	padding-left: 0;
 }
 .menu li {
 	color:#77a466;
 	line-height: 30px;
+	margin: 0;
+	padding: 0;
 }
 
 .reviews {
