@@ -125,7 +125,6 @@ header nav ul li a{
 
 .menu {
 	list-style: none;
-	width: 100%;
 }
 .menu li {
 	color:#77a466;
@@ -186,13 +185,23 @@ footer span {
 
 /*--------- DESKTOP ---------*/
 @media all and (min-width: 1200px) {
-
-header h1 {
-	width: ;
-	padding: ;
-	border-bottom: ;
-	text-align: ;
+header {
+    justify-content: space-between;
 }
 
+header h1 {
+	width: 30% ;
+	padding: 0;
+	border-bottom: none;
+	text-align: left;
+}
 
+header nav {
+	width: 40%;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+}
 }
